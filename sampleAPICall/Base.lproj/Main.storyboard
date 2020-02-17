@@ -73,14 +73,25 @@
                                     <action selector="buttonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YJ0-ai-UqZ"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" misplaced="YES" text="Git Hub" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pUb-7d-C99">
+                                <rect key="frame" x="263" y="36" width="71" height="38"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="71" id="a1G-54-8fw"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="1wj-Kt-8IB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Se0-bP-lg1"/>
                             <constraint firstItem="Pd6-Za-RG5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="e0r-Ne-Z2D"/>
                             <constraint firstItem="Pd6-Za-RG5" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="36" id="epe-5n-oLH"/>
+                            <constraint firstItem="pUb-7d-C99" firstAttribute="top" secondItem="Pd6-Za-RG5" secondAttribute="top" id="g18-2H-LnW"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1wj-Kt-8IB" secondAttribute="trailing" id="j6m-cr-K2k"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="1wj-Kt-8IB" secondAttribute="bottom" id="mia-np-wbD"/>
+                            <constraint firstItem="pUb-7d-C99" firstAttribute="leading" secondItem="Pd6-Za-RG5" secondAttribute="trailing" constant="25.5" id="neZ-J1-0wU"/>
                             <constraint firstItem="1wj-Kt-8IB" firstAttribute="top" secondItem="Pd6-Za-RG5" secondAttribute="bottom" constant="34" id="rVo-76-qct"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -91,7 +102,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1250" y="37"/>
+            <point key="canvasLocation" x="-1250.4000000000001" y="36.431784107946029"/>
         </scene>
     </scenes>
 </document>
