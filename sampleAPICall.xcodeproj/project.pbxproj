@@ -18,6 +18,7 @@
 		0363707423E9927500B94CAF /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0363707323E9927500B94CAF /* APIService.swift */; };
 		0363707623E99AC100B94CAF /* tableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0363707523E99AC100B94CAF /* tableViewCell.swift */; };
 		037509DD23FA7232003EA93D /* EmployeeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037509DC23FA7232003EA93D /* EmployeeViewModel.swift */; };
+		039FEAC823FACA4C00705004 /* MapForItinerary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039FEAC723FACA4B00705004 /* MapForItinerary.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		0363707323E9927500B94CAF /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		0363707523E99AC100B94CAF /* tableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableViewCell.swift; sourceTree = "<group>"; };
 		037509DC23FA7232003EA93D /* EmployeeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeViewModel.swift; sourceTree = "<group>"; };
+		039FEAC723FACA4B00705004 /* MapForItinerary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapForItinerary.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				0363704A23E9901A00B94CAF /* Assets.xcassets */,
 				0363704C23E9901A00B94CAF /* LaunchScreen.storyboard */,
 				0363704F23E9901A00B94CAF /* Info.plist */,
+				039FEAC723FACA4B00705004 /* MapForItinerary.swift */,
 			);
 			path = sampleAPICall;
 			sourceTree = "<group>";
@@ -309,6 +312,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0363707623E99AC100B94CAF /* tableViewCell.swift in Sources */,
+				039FEAC823FACA4C00705004 /* MapForItinerary.swift in Sources */,
 				0363704623E9901200B94CAF /* ViewController.swift in Sources */,
 				0363707223E9903D00B94CAF /* UserModel.swift in Sources */,
 				0363707423E9927500B94CAF /* APIService.swift in Sources */,
