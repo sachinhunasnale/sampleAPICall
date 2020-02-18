@@ -35,7 +35,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                           }
                 
                 case .failure:
-                      print("failed")
+                      print("failed APICall")
             }
            
       }
