@@ -55,10 +55,5 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         cell.empViewModel = employeeViewModel[indexPath.row]
         return cell;
     }
-    
-    
-    @IBAction func buttonAction(_ sender: Any) {
-        print("button pressed");
-    }
 }
 
