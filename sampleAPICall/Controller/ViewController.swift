@@ -56,9 +56,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         return cell;
     }
     
-    
     @IBAction func buttonAction(_ sender: Any) {
         print("button pressed");
+        print("finished");
     }
 }
 
